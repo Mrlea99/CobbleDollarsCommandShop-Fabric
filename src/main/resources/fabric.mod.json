@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbledollarscommandshop",
+  "version": "${version}",
+  "name": "CobbleDollars Command Shop",
+  "description": "Fabric port of CobbleDollars command-driven shops.",
+  "authors": [
+    "Mrlea99"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrlea99.cobbledollarscommandshop.CobbleDollarsCommandShopFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
